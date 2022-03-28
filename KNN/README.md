@@ -13,7 +13,7 @@ K Nearest Neighbor, KNN, 又稱 K-近鄰演算法
 
 K 的大小會影響最終分類的結果
 
-####KNN回歸器
+#### KNN回歸器
 回歸模型預測方法為最近的K個**數值平均**
 假設`k = 2, input = x, output = y`選擇最近的兩個 x 平均後為 y。
 判斷哪些是鄰居，首先要量化相似度，也就是最常見的歐幾里得距離(Euclidean distance)公式如下：

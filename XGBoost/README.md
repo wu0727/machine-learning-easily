@@ -20,5 +20,5 @@ XGBoost 在目標函數添加了標準化
 3. 在損失函數中加入 L1/L2 項,控制模型的複雜度
 4. 提供 GPU 平行化運算
 
-![image](important of feature.png)
+![image](important of feature.jpg)
 

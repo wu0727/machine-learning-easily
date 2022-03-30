@@ -15,6 +15,9 @@ Stacking 可以結合許多 model，在此範例中建立了四種迴歸器，<b
 測試的時候發現一層隱藏層以及三、四層隱藏層會增加 overfiting 的問題。<br>
 ![image](stacking_result.jpg)
 
+
+
+
 Parameters:
 
 estimators: m 個model。<br>

@@ -13,6 +13,7 @@ Stacking 可以結合許多 model，在此範例中建立了四種迴歸器，<b
 分別有隨機森林、支持向量機、KNN 與決策樹，<br>
 最終的模型採用兩層隱藏層的神經網路作為最後的房價預測評估模型；<br>
 測試的時候發現一層隱藏層以及三、四層隱藏層會增加 overfiting 的問題。<br>
+
 [!image](stacking_result.jpg)
 
 Parameters:

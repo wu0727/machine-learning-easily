@@ -9,18 +9,18 @@
 
 ---
 
-Stacking 可以結合許多 model，在此範例中建立了四種迴歸器，
-分別有隨機森林、支持向量機、KNN 與決策樹，
-最終的模型採用兩層隱藏層的神經網路作為最後的房價預測評估模型；
-測試的時候發現一層隱藏層以及三、四層隱藏層會增加 overfiting 的問題。
-
+Stacking 可以結合許多 model，在此範例中建立了四種迴歸器，<br>
+分別有隨機森林、支持向量機、KNN 與決策樹，<br>
+最終的模型採用兩層隱藏層的神經網路作為最後的房價預測評估模型；<br>
+測試的時候發現一層隱藏層以及三、四層隱藏層會增加 overfiting 的問題。<br>
+[!image](stacking_result.jpg)
 Parameters:
 
-estimators: m 個model。
-final_estimator: 集合所有model的輸出，訓練一個最終預測模型，
+estimators: m 個model。<br>
+final_estimator: 集合所有model的輸出，訓練一個最終預測模型，<br>
 預設為LogisticRegression，範例中使用**MLP多層感知器**
 
 Attributes:
 
-estimators_: 查看 model 組合。
+estimators_: 查看 model 組合。<br>
 final_estimator: 查看最終整合訓練模型。

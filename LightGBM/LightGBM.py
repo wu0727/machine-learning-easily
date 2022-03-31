@@ -16,4 +16,7 @@ def train_model(unbalance):
   model.fit(X_train, y_train)
   score = model.predict(X_test)
   print('score:', accuracy_score(y_test, score))
-  plot_matrix.plot_confusion_matrix(y_test, score, "Is_Unbalance = True")
+  if unbalance:
+    plot_matrix.plot_confusion_matrix(y_test, score, "Is_Unbalance = True")
+  else:
+    plot_matrix.plot_confusion_matrix(y_test, score, "Is_Unbalance = False")
